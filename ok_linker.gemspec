@@ -7,7 +7,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["golosizpru@gmail.com"]
   spec.summary       = %q{Ruby gem for okey.link API.}
   spec.description   = %q{Ruby gem for Odnoklassniki's URL shortening service okey.link.}
+  spec.homepage      = "https://github.com/bodrovis/ok_linker"
   spec.license       = "MIT"
+  spec.platform      = Gem::Platform::RUBY
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
