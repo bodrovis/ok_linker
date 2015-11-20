@@ -1,4 +1,3 @@
-require 'pry'
 require 'faraday'
 require 'faraday_middleware'
 require 'multi_json'
