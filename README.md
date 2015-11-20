@@ -1,5 +1,10 @@
 # OkLinker
 
+[![Gem Version](https://badge.fury.io/rb/ok_linker.svg)](https://badge.fury.io/rb/ok_linker)
+[![Dependency Status](https://gemnasium.com/bodrovis/ok_linker.svg)](https://gemnasium.com/bodrovis/ok_linker)
+
+Ruby gem to work with Odnoklassniki's URL shortening service [okey.link](http://okey.link).
+
 ## Installation
 
 Via RubyGems:
@@ -64,7 +69,7 @@ For example,
 
     client.get('get-urls', page: 2)
     
-These methods always return JSON or one of the errors listed here.
+These methods always return JSON or one of the errors listed [here](https://github.com/bodrovis/ok_linker/blob/master/lib/ok_linker/error.rb#L18).
 
 ## Todo
 
