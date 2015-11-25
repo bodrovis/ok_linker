@@ -51,7 +51,7 @@ hide(url)           # Hide a URL that was previously shorten
 
 clicks(url)         # Get clicks statistics for the given URL
 
-count_urls(params)  # Get a list of shortened URLS.
+urls(params)        # Get a list of shortened URLs.
                     # Allowed options:
                     # * :epp  - integer, optional. Elements per page. Default is 20.
                     # * :page - integer, optional. Page to fetch. Default is 1.

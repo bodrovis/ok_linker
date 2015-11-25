@@ -19,7 +19,7 @@ module OkLinker
       get('get-url-clicks', url: url.to_s)
     end
 
-    def count_urls(params = {})
+    def urls(params = {})
       get('get-urls', params)
     end
 
