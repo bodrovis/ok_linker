@@ -1,9 +1,12 @@
 # OkLinker
 
 [![Gem Version](https://badge.fury.io/rb/ok_linker.svg)](https://badge.fury.io/rb/ok_linker)
+[![Build Status](https://travis-ci.org/bodrovis/ok_linker.svg?branch=master)](https://travis-ci.org/bodrovis/ok_linker)
+[![Code Climate](https://codeclimate.com/github/bodrovis/ok_linker/badges/gpa.svg)](https://codeclimate.com/github/bodrovis/ok_linker)
+[![Test Coverage](https://codeclimate.com/github/bodrovis/ok_linker/badges/coverage.svg)](https://codeclimate.com/github/bodrovis/ok_linker/coverage)
 [![Dependency Status](https://gemnasium.com/bodrovis/ok_linker.svg)](https://gemnasium.com/bodrovis/ok_linker)
 
-Ruby gem to work with Odnoklassniki's URL shortening service [okey.link](http://okey.link).
+Ruby gem to work with Odnoklassniki's URL shortening service [okey.link](http://okey.link). Tested against Ruby 1.9.3, 2.0, 2.1, 2.2, jRuby and rbx.
 
 ## Installation
 
@@ -71,9 +74,7 @@ For example,
     
 These methods always return JSON or one of the errors listed [here](https://github.com/bodrovis/ok_linker/blob/master/lib/ok_linker/error.rb#L18).
 
-## Todo
 
-* Write tests
 
 ## License
 
