@@ -2,7 +2,7 @@ module OkLinker
   class Config
     VALID_OPTIONS_KEYS = [:access_token].freeze
 
-    attr_accessor *VALID_OPTIONS_KEYS
+    attr_accessor(*VALID_OPTIONS_KEYS)
 
     def self.configure
       config = self.new
