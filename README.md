@@ -74,7 +74,13 @@ For example,
     
 These methods always return JSON or one of the errors listed [here](https://github.com/bodrovis/ok_linker/blob/master/lib/ok_linker/error.rb#L18).
 
+## Testing
 
+Rename `.env.sample` to `.env` and assign `OKEY_LINK_KEY` to your API key. This file is excluded from version control, so your token won't be exposed.
+
+Then run
+
+    $ bundle exec rspec .
 
 ## License
 
