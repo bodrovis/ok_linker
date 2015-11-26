@@ -28,6 +28,18 @@ to gain access.
 After logging in, copy your API access token from the [API section](https://okey.link/cabinet/api). This token
 has unlimited lifetime and has to be stored securely.
 
+### Instantiating a Client
+
+Create a new client by typing
+
+    client = OkLinker::Client.new(opts)
+  
+or simply with
+
+    client = OkLinker.new(opts)
+    
+You can now call OkLinker's [methods](https://github.com/bodrovis/ok_linker#calling-methods).
+
 ### Configuration
 
 OkLinker does not require much configuration. The only thing that you need to provide is your access token.

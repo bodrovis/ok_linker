@@ -1,4 +1,9 @@
 RSpec.describe OkLinker do
+  specify ".new" do
+    client = OkLinker.new
+    expect(client).to be_an_instance_of OkLinker::Client
+  end
+
   describe "configuration" do
     let(:access_token) {SecureRandom.hex}
     it "accepts config options" do
