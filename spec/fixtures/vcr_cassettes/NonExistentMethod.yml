@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://okey.link/api/v1/some-test-method
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - ok_linker ruby gem/0.1.0
+      Access-Token:
+      - "<OKEY_LINK_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 501
+      message: Not Implemented
+    headers:
+      Server:
+      - nginx/1.9.5
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - core_cookie=z9JY67P2UqYOzjOb3aSGTDcSmni1ly1J; expires=Fri, 25-Nov-2016 18:54:26
+        GMT; Max-Age=31536000; path=/
+      Cache-Control:
+      - no-cache
+      Date:
+      - Thu, 26 Nov 2015 18:54:26 GMT
+    body:
+      encoding: UTF-8
+      string: Method not found
+    http_version: 
+  recorded_at: Thu, 26 Nov 2015 18:54:19 GMT
+recorded_with: VCR 3.0.0

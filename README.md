@@ -53,8 +53,8 @@ clicks(url)         # Get clicks statistics for the given URL
 
 urls(params)        # Get a list of shortened URLs.
                     # Allowed options:
-                    # * :epp  - integer, optional. Elements per page. Default is 20.
-                    # * :page - integer, optional. Page to fetch. Default is 1.
+                    ## :epp  - integer, optional. Elements per page. Default is 20.
+                    ## :page - integer, optional. Page to fetch. Default is 1.
 ```
 
 Also, you can call raw methods:

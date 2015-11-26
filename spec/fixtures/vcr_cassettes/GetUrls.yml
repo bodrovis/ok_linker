@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://okey.link/api/v1/get-urls?epp=2&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - ok_linker ruby gem/0.1.0
+      Access-Token:
+      - "<OKEY_LINK_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.5
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - core_cookie=3a8e4rhaDb3R4TCerMdh00bj9GGykcAL; expires=Fri, 25-Nov-2016 19:11:47
+        GMT; Max-Age=31536000; path=/
+      Cache-Control:
+      - no-cache
+      Date:
+      - Thu, 26 Nov 2015 19:11:47 GMT
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Content-Security-Policy-Report-Only:
+      - 'default-src https:; script-src https: ''unsafe-eval'' ''unsafe-inline'';
+        style-src https: ''unsafe-inline''; img-src https: data:; font-src https:
+        data:; report-uri /csp-report'
+    body:
+      encoding: UTF-8
+      string: '{"result":true,"data":{"urls":[],"pages":{"current":1,"total":0,"epp":2}}}'
+    http_version: 
+  recorded_at: Thu, 26 Nov 2015 19:11:40 GMT
+recorded_with: VCR 3.0.0

@@ -16,7 +16,6 @@ module OkLinker
     NotImplemented = Class.new(ServerError)
 
     ERRORS = {
-        200 => OkLinker::Error::ClientError,
         400 => OkLinker::Error::BadRequest,
         401 => OkLinker::Error::Unauthorized,
         403 => OkLinker::Error::Forbidden,

@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://okey.link/api/v1/make-short-url
+    body:
+      encoding: UTF-8
+      string: url=http%3A%2F%2Fexample.com
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - ok_linker ruby gem/0.1.0
+      Access-Token:
+      - '1'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Server:
+      - nginx/1.9.5
+      Content-Type:
+      - text/plain;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - core_cookie=BRHgO8xwzgniHdWqdV6qdcgab2Mq2t4M; expires=Fri, 25-Nov-2016 18:44:16
+        GMT; Max-Age=31536000; path=/
+      Cache-Control:
+      - no-cache
+      Date:
+      - Thu, 26 Nov 2015 18:44:16 GMT
+    body:
+      encoding: UTF-8
+      string: Forbidden
+    http_version: 
+  recorded_at: Thu, 26 Nov 2015 18:44:09 GMT
+recorded_with: VCR 3.0.0

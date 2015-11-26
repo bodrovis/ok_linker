@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://okey.link/api/v1/make-short-url
+    body:
+      encoding: UTF-8
+      string: url=http%3A%2F%2Fexample.com
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - ok_linker ruby gem/0.1.0
+      Access-Token:
+      - "<OKEY_LINK_KEY>"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.5
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - core_cookie=58APyl62mLrupKxLh4qlZN6OBDTPBrWz; expires=Fri, 25-Nov-2016 18:59:41
+        GMT; Max-Age=31536000; path=/
+      Cache-Control:
+      - no-cache
+      Date:
+      - Thu, 26 Nov 2015 18:59:41 GMT
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Content-Security-Policy-Report-Only:
+      - 'default-src https:; script-src https: ''unsafe-eval'' ''unsafe-inline'';
+        style-src https: ''unsafe-inline''; img-src https: data:; font-src https:
+        data:; report-uri /csp-report'
+    body:
+      encoding: UTF-8
+      string: '{"result":true,"data":{"url":"http:\/\/example.com","short":"okey.link\/52cD"}}'
+    http_version: 
+  recorded_at: Thu, 26 Nov 2015 18:59:34 GMT
+recorded_with: VCR 3.0.0
