@@ -1,5 +1,8 @@
-require "codeclimate-test-reporter"
-CodeClimate::TestReporter.start
+require 'simplecov'
+SimpleCov.start do
+  add_filter "/spec/"
+  add_filter "/bin/"
+end
 
 require 'dotenv'
 require 'pry'

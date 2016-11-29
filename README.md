@@ -98,4 +98,4 @@ Then run
 
 Licensed under the [MIT License](https://github.com/bodrovis/ok_linker/blob/master/LICENSE).
 
-Copyright (c) 2015 [Ilya Bodrov](http://radiant-wind.com)
+Copyright (c) 2016 [Ilya Bodrov](http://bodrovis.tech)
